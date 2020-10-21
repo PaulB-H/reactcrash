@@ -54,7 +54,7 @@ class App extends Component {
 
   // Add Todo
   addTodo = (title) => {
-    if(title!=""){
+    if(title!==""){
       axios.post('https://jsonplaceholder.typicode.com/todos', {
         title, 
         completed: false
